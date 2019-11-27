@@ -53,6 +53,10 @@
   {% include '_third-party/math/index.swig' %}
   {% include '_third-party/quicklink.swig' %}
 
+  <script type="text/javascript" src="https://unpkg.com/minigrid@3.1.1/dist/minigrid.min.js"></script>
+  <link rel="stylesheet" href="/photos/photos.css">
+  <script type="text/javascript" src="/photos/photo.js"></script>
+
   {{- next_inject('bodyEnd') }}
 
   {%- if theme.pjax %}
